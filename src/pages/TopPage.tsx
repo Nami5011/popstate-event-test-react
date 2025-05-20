@@ -12,6 +12,8 @@ export default function FirstPage() {
       <button onClick={() => navigate('/after')} className="button-top">
         Go to the next page (After)
       </button>
+      <a href="/before" style={{ display: 'block', margin: 20 }}>Go to the next page (Before)</a>
+      <a href="/after" style={{ display: 'block', margin: 20 }}>Go to the next page (After)</a>
     </div>
   );
 }
